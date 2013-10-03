@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap TEST</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/v232/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/v232/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../css/v232/bootstrap-responsive.min.css" media="screen">
+    <!-- local CSS -->
+    <style>
+      p{border: 2px solid blue;}
+    </style>
+  </head>
+
+  <body>
+    <code>Bootstrap version 2.3.2</code><hr />
+    <h1>Hello, world!</h1>
+
+    <div class="row-fluid">
+      <div class="span8">
+        <p class="lead">span 8 lead</p>
+      </div>
+      <div class="span4 ">
+        <p>span 4</p>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="span2">
+          <p class="text-center">span 2 center</p>
+        </div>
+        <div class="span6 offset4">
+          <p class="text-right">span 6, offset 4, right</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-fluid">
+      <div class="span8">
+        host span 8
+        <div class="row">
+          <div class="span2"><p>nest span 2</p></div>
+          <div class="span6"><p>nest span 6</p></div>
+        </div>
+      </div>
+    </div>
+
+    <blockquote>
+      <p>Blockquote here !</p>
+      <small>Foo bar from<cite>egg</cite></small>
+    </blockquote>
+
+    <button class="btn col-md-2">Default Col-2</button>
+    <button class="btn col-md-3">Default Col-3</button>
+
+    <hr />
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-info btn-large">Large,Info</button>
+    <button class="btn btn-success btn-small">Small,Success</button>
+    <a href="" class="btn btn-danger btn-mini">Mini,Danger</a>
+    <input type="submit" class="btn btn-warning" value="Warning" />
+
+    <hr />
+    <ul class="inline">
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+    </ul>
+
+    <dl>
+      <dt>Q1</dt>
+      <dd>A1</dd>
+      <dt>Q2</dt>
+      <dd>A2</dd>
+      <dt>Q3</dt>
+      <dd>A3</dd>
+    </dl>
+
+    <table class="table table-striped">
+      <caption>Table caption</caption>
+      <thead>
+        <tr>
+          <th>h</th>
+          <th>haaaaaaaaa</th>
+          <th>haaaaaaaaaaaaaaaaaaaa</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="info">
+          <td>d</td>
+          <td>d</td>
+          <td>d</td>
+        </tr>
+        <tr class="warning">
+          <td>d</td>
+          <td>d</td>
+          <td>d</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>
